@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <title>NAPF Electronics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="NAPF.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- the first block of the website -->
+        <div class="menu-wrap flex flex-wrap">
+            <section id = "titles">
+                <a href='homepage.html'><img src='../Yuanyuan Sun_990408/image/logo.jpg'  class='logo'></a>
+                <span id='hamburger' onclick="showHide('menu')">
+                    <a href="javascript:void(0);"><i class="fa fa-bars"></i></a>   
+                </span>
+            </section>
+            
+            <nav>
+                <ul>
+                    <li><a href="#"><i class='fa fa-search'></i></a></li>
+                    <li><a href="#"><i class="fas fa-user"></i></a></li>
+                    <li><a href='cart.html'><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- navigation bar -->
+        <div  class= "menu-bar">
+        <ul>
+            <li class="active"><a href="product-listing.html">Products</a>
+                <div class = "sub-menu-1">
+                    <ul>
+                        <li class = "hover-me"><a href="#">TV's & Players</a><i class = "fa fa-angle-right"></i>
+                           <div class = "sub-menu-2">
+                               <ul>
+                                   <li><a href="All TV's & Players.html">All TV's & Players</a>
+                                   <li><a href="#">Accessories - Audio Other</a></li>
+                                   <li><a href="#">Blu-Ray Players</a></li>
+                                   <li><a href="#">Blu-Ray Recorders</a></li>
+                                   <li><a href="#">DVD Players</a></li>
+                                   <li><a href="#">Projection Screens</a></li>
+                                   <li><a href="#">Projectors</a></li>
+                                   <li><a href="#">TV - LED/LCD</a></li>
+                                   <li><a href="#">TV - OLED</a></li>
+                               </ul>
+                            </div>
+                        </li>
+                        <li class = "hover-me"><a href="#">Computers</a><i class = "fa fa-angle-right"></i></li>
+                        <li class = "hover-me"><a href="#">AV Accessories</a><i class = "fa fa-angle-right"></i></li>
+                        <li class = "hover-me"><a href="#">Home Appliances</a><i class = "fa fa-angle-right"></i></li>
+                        <li class = "hover-me"><a href="#">Phones</a><i class = "fa fa-angle-right"></i></li>
+                        <li class = "hover-me"><a href="#">Cooking & Dishwashers</a><i class = "fa fa-angle-right"></i></li>
+                        <li class = "hover-me"><a href="#">Heating & Cooling</a><i class = "fa fa-angle-right"></i></li>
+                        <li class = "hover-me"><a href="#">Homewares</a><i class = "fa fa-angle-right"></i></li>
+                        <li class = "hover-me"><a href="#">HiFi & Audio</a><i class = "fa fa-angle-right"></i></li>
+                        
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">Red Hot Deals</a></li>
+            <li><a href="">On Sale</a></li>
+            <li><a href="">New Arrivals</a></li>
+        </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- breadcrumb -->
+        <ul class="breadcrumb">
+            <li><a href="homepage.html">Home</a></li>
+            <li>All TVs & Players</li>
+        </ul>
+
+        <div class="sidebar ">
+            <div class = "classify-tag">All TVs & Players</div>
+        <!-- filter   -->
+        <div class='flex-box pc'>
+            <div class = "type">Product Type</div>
+            <ul>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">Accessories - Audio Other</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">Blu-Ray Players</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">Blu-Ray Recorders</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">DVD Players</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">Projection Screens</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">Projectors</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">TV - LED/LCD</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">TV - OLED</label></li>
+            <li class = "type">Brand</li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">CHIQ</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">EPSON</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">GOTV</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">ONE FOR ALL</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">OPTOMA</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">PHILIPS</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">Panasonic</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">SAMSUNG</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">SONY</label></li>
+                <li><input id="filter" type="checkbox">
+                <label for="filter">WESTINGHOUSE</label></li>
+            </ul>
+            </div>
+        </div>
+
+<div class = "content">
+        <!-- All TVs & Players-->
+<article class = "All-TVs">
+    <ul class='flex-box'>   
+        <li class="product-card">
+            <div class = "product-img"><a href='details.html'><img src = "../Yuanyuan Sun_990408/image/product12.jpg" alt= ""></a></div>
+            <div class = "product-name">Samsung QN85A 85" Neo QLED 4K Smart TV 2021</div>
+            <div class = "product-price">$ 6,495</div>
+            <div class = "product-button">
+                <a href="#" class = "product-compare">Compare</a>
+                <a href="cart.html" class = "product-cart">Add to Cart</a>
+            </div>
+        </li>  
+        <li class="product-card ">
+            <div class = "product-img"><a href='details.html'><img src = "../Yuanyuan Sun_990408/image/product1.jpg" alt= ""></a></div>
+            <div class = "product-name">Sony KD49X8000H 49" 4K Ultra HD Android Smart TV</div>
+            <div class = "product-price">$ 1,129</div>
+            <div class = "product-button">
+                <a href="#" class = "product-compare">Compare</a>
+                <a href="cart.html" class = "product-cart">Add to Cart</a>
+            </div>
+        </li>
+        <li class="product-card">
+            <div class = "product-img"><a href='details.html'><img src = "../Yuanyuan Sun_990408/image/product2.jpg" alt= ""></a></div>
+            <div class = "product-name">Sony KD55X9000H 4K Ultra HD Android Smart TV - Full Array </div>
+            <div class = "product-price">$ 1,595</div>
+            <div class = "product-button">
+                <a href="#" class = "product-compare">Compare</a>
+                <a href="cart.html" class = "product-cart">Add to Cart</a>
+            </div>
+        </li>
+        <li class="product-card ">
+            <div class = "product-img"><a href='details.html'><img src = "../Yuanyuan Sun_990408/image/product4.jpg" alt= ""></a></div>
+            <div class = "product-name">Sony KD43X7000G 43" X70G 4K Smart TV</div>
+            <div class = "product-price">$ 789</div>
+            <div class = "product-button">
+                <a href="#" class = "product-compare">Compare</a>
+                <a href="cart.html" class = "product-cart">Add to Cart</a>
+            </div>
+        </li>
+    </ul>
+</article>
+</div>
+
+    </main>
+
+    <footer>
+        <div class="container flex flex-wrap">
+            <section class='words flex-1 flex-100'>
+                <address>
+                    NAPF ELECTRONICS Address<br>
+                    4 Parramatta Road<br>
+                    (Cnr Dover Street)<br>
+                    Summer Hill NSW 2130<br>
+                </address>
+                <br><br>
+                <strong>Copyright 2020 Redeye Record. A website by Yuanyuan Sun.</strong>
+            </section>
+            <br>
+            <section class='socials flex-1 flex-100'>
+                <strong>Stay In Touch<strong>
+                     <form action=''>
+                         <input class="email" type="text" placeholder="Email Address">
+                         <label class="email" for="email"><i class="fas fa-arrow-right"></i></label>
+                         <br>
+                         <input id="agree" type="checkbox">
+                         <label for="agree">I agree to the privacy policy and terms and conditions.</label>
+                     </form>
+                     <p class='footer_icons'>
+                         <i class="fab fa-facebook-f"></i>
+                         <i class="fab fa-instagram"></i>
+                         <i class="fab fa-twitter"></i>
+                         <i class="fab fa-pinterest"></i>
+                         <i class="fab fa-youtube"></i>
+                         <i class="fa fa-envelope"></i>
+                     </p>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
